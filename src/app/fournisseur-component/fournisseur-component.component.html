@@ -1,0 +1,12 @@
+<div>
+  <h2>information de fournisseur </h2>
+  <div *ngIf="!hide">
+  <p>id fournisseur {{idFournisseur}}</p>
+  <p> code fournisseur {{code}}</p>
+  <p> libelle {{libelle}}</p>
+  </div>
+
+
+</div>
+<button (click)="toggleHide()">Cacher</button>
+
