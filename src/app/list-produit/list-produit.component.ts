@@ -17,6 +17,12 @@ export class ListProduitComponent {
     {idProduit: 5, code: "F147852P", libelle: "Produit1", prixUnitaire: 70, tauxTVA: 0.02},
 
 
-  ]
-  protected readonly Produit = Produit;
+  ];
+
+  ajusterTVA(produit: Produit): void {
+
+    produit.tauxTVA = 0.20; // 20%
+
+    produit.tvaModifiee = true;
+  }
 }

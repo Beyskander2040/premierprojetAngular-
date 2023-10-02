@@ -4,4 +4,5 @@ export class Produit {
   libelle !:string;
   prixUnitaire !:number;
   tauxTVA !:number;
+
 }

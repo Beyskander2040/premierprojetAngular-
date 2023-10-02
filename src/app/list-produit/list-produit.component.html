@@ -1,11 +1,14 @@
 <p>la liste de produits </p>
 <li *ngFor=" let  Produit of listProduit">
   <button [disabled]="Produit.tauxTVA === 0.02">Ajuster TVA</button>
-  <p>ID du Fournisseur : {{ Produit.idProduit }}</p>
+  <p>ID du Produit : {{ Produit.idProduit }}</p>
   <p>code  : {{ Produit.code }}</p>
   <p>Libelle: {{ Produit.libelle }}</p>
   <p>prix Unitaire  : {{ Produit.prixUnitaire }}</p>
   <p>taux TVA : {{ Produit.tauxTVA}}</p>
+  <button (click)="ajusterTVA(Produit)" [disabled]="Produit.tauxTVA === 20">Ajuster TVA</button>
+  <p *ngIf="Produit.tauxTVA === 20 && Produit.tvaModifiee">TVA modifiée</p>
+
 
 
 
