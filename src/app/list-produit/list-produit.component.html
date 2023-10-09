@@ -7,7 +7,9 @@
   <p>prix Unitaire  : {{ Produit.prixUnitaire }}</p>
   <p>taux TVA : {{ Produit.tauxTVA}}</p>
   <button (click)="ajusterTVA(Produit)" [disabled]="Produit.tauxTVA === 20">Ajuster TVA</button>
-  <p *ngIf="Produit.tauxTVA === 20 && Produit.tvaModifiee">TVA modifiée</p>
+<!--  <p *ngIf="Produit.tauxTVA === 20 && Produit.tvaModifiee">TVA modifiée</p>-->
+<a routerLink="/users">link1</a>
+  <router-outlet></router-outlet>
 
 
 

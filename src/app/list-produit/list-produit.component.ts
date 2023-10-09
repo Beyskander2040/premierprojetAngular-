@@ -23,6 +23,6 @@ export class ListProduitComponent {
 
     produit.tauxTVA = 0.20; // 20%
 
-    produit.tvaModifiee = true;
+    // produit.tvaModifiee = true;
   }
 }

@@ -9,6 +9,13 @@ import {FormsModule} from "@angular/forms";
 import { FournisseurComponentComponent } from './fournisseur-component/fournisseur-component.component';
 import { ListFournisseurComponentComponent } from './list-fournisseur-component/list-fournisseur-component.component';
 import { ListProduitComponent } from './list-produit/list-produit.component';
+import { AddUserComponent } from './add-user/add-user.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
+import { EditUserComponent } from './edit-user/edit-user.component';
+import { MainInoviceComponent } from './main-inovice/main-inovice.component';
+import { InoviceListComponent } from './inovice-list/inovice-list.component';
+import { InoviceComponent } from './inovice/inovice.component';
+import { HeaderComponent } from './header/header.component';
 
 
 
@@ -20,6 +27,13 @@ import { ListProduitComponent } from './list-produit/list-produit.component';
     FournisseurComponentComponent,
     ListFournisseurComponentComponent,
     ListProduitComponent,
+    AddUserComponent,
+    ErrorPageComponent,
+    EditUserComponent,
+    MainInoviceComponent,
+    InoviceListComponent,
+    InoviceComponent,
+    HeaderComponent,
 
 
   ],
